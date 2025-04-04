@@ -1,0 +1,66 @@
+.championsleague {
+    text-align: center;
+    display: flex;
+    font-style: italic;
+    justify-content: center;
+    font-size: 1.2rem; 
+    color: #424632;
+    border: 1px solid gray; 
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    width: 50%; 
+    margin: 0 auto;
+}
+.cuadro2 {
+	text-align: center;
+}
+.botones {
+   display: flex;
+   gap: 6px;
+   justify-content: center;
+}
+.boton1 {
+	padding: 2.5px;
+	display:flex;
+}
+.boton2 {
+	padding: 2.5px;
+	display:flex;
+}
+
+.cuadradotorneo {
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 20px auto; 
+    width: 80%; 
+    background-color: #376582;
+}
+.botonAgregar2 {
+		display: flex;
+	justify-content: flex-start;
+	gap: 6px;
+	margin-top: 20px;
+}
+.cuadro2 h2 {
+   color: whitesmoke;
+   text-shadow: -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                -1px  1px 0 #000,
+                 1px  1px 0 #000;;
+}
+.boton-borrar {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; 
+    height: 30px;
+    background-color: #ff4c4c; 
+    border: none;
+    color: white; 
+    font-weight: bold;
+    font-size: 18px; 
+    border-radius: 4px;  
+    transition: background-color 0.3s ease; 
+}
+
