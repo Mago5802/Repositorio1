@@ -1,0 +1,15 @@
+.barrasuperior {
+    background-color:#4682b4;
+    display: flex;
+    border: 1%;
+    justify-content: center;
+}
+.botones {
+    height: 50%;
+}
+.tabla2 {
+justify-content: center;
+display: flex;
+padding: 10%;    
+
+}
