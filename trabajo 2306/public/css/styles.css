@@ -1,0 +1,39 @@
+#tabla-inventario, #tabla-inventario th, #tabla-inventario td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+#tabla-inventario th, #tabla-inventario td {
+    padding: 12px;
+    text-align: left;
+    border-width: 3px;
+
+}
+#edicionlimitada {
+    display:none;
+}
+body {
+    background: url('../Images/wp7226680.webp') no-repeat center  fixed;
+    background-size: cover;
+    position: flex;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.11); 
+    z-index: 0;
+    pointer-events: none;
+}
+body,table,th,td {
+   color: #000000;
+}
+#formulariodeljuego {
+    border-style: solid;
+    color: black;
+    border-color: black;
+    padding: 10px;
+    border-width: 5px;
+}
+#filtro {
+    padding: 2px;
+}
