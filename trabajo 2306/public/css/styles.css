@@ -1,0 +1,12 @@
+/* filepath: c:\Users\Acer\Desktop\trabajo 2306\public\css\styles.css */
+#tabla-inventario, #tabla-inventario th, #tabla-inventario td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+#tabla-inventario th, #tabla-inventario td {
+    padding: 8px 12px;
+    text-align: left;
+}
+#edicionlimitada {
+    display:none;
+}
